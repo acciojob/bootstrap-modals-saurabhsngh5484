@@ -4,32 +4,37 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script></head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
 
 <body>
-	<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#accio-Modal" id="open-modal">
-  Launch newton modal
+	<!-- the entire body must be written by student -->
+	<button type="button" id="open-modal"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newton-modal">
+  Launch demo modal
 </button>
 
 <!-- Modal -->
-<div class="modal fade modal-dialog modal-dialog-centered m-5 py-5 " id="accio-Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="newton-modal"  tabindex="-1" aria-labelledby="newton-modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">New Modal </h1>
+        <h5 class="modal-title" id="newton-modalLabel">New Modal</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie eleifend ex, in vehicula mauris vehicula sed. Pellentesque et augue dapibus, vestibulum libero vitae, condimentum mi. Cras purus elit, scelerisque et ultrices non, venenatis rhoncus mi. Donec rutrum </p>
+        Lorem ipsum dolor sit amet
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="open-modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
       </div>
     </div>
   </div>
 </div>
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
 
 </html>
